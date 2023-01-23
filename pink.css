@@ -1,0 +1,607 @@
+img{
+	width: 250px;
+	height: 100px;
+	margin-left: 650px;
+	margin-top: 0px;
+	margin-right: 250px;
+}
+.icon{
+     display: flex;
+     margin-right: 100px;
+
+}
+.icon a{
+	width: 80px;
+	height: 80px;
+	text-decoration: none;
+	margin-top: 70px;
+	margin-left:50px;
+	color: black;	
+
+}
+.icon a:hover{
+	color: deeppink;
+}
+.bar{
+	display: inline;
+	align-items: center;
+	background: pink;
+}
+.bar ul{
+	list-style: none;
+	align-items: center;
+	padding: 5px;
+
+}
+.bar li{
+	display: inline;
+	margin: 50px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.bar li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	 font-family: 'Explora', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Josefin Sans', sans-serif
+	
+
+	
+	
+
+}
+.back1{
+	background: radial-gradient(#fff,#FFB6C1);
+}
+.bar li a:hover{
+	color: deeppink;
+	text-decoration: none;
+}
+.banner img{
+	width:700px ;
+	height: 520px;
+	margin-left: 200px;
+
+}
+.banner{
+	position: relative;
+}
+.banner .but{
+	position: absolute;
+	top: 75%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	background: lightyellow;
+	color: deeppink;
+	padding: 16px 30px;
+	border-radius: none;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 20%;
+
+}
+.banner .but:hover{
+	color: black;
+	background: lightpink;
+}
+.banner .bring{
+          position: absolute;
+          top: 10%;
+          left: 55%;
+          color: black;
+          font-size: 100px;
+          font-family: 'Explora', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+          
+}
+.banner .the{
+	position: absolute;
+	top: 12%;
+	left: 52%;
+	color:#FF007F;
+	font-size: 80px;
+	 font-family: 'Explora', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Josefin Sans', sans-serif;
+    
+}
+.about {
+	width: px;
+	height: 300px;
+	margin-left: 0px;
+	background:lightpink;
+	justify-content: space-between;
+	padding: 40px;
+	display: flex;
+
+
+}
+.about img{
+	height: 300px;
+	width: 300px;
+	margin-left: 0px;
+	margin-right: 50px;
+
+}
+.about h1{
+	margin: 0;
+	color: deeppink;
+	font-size: 50px;
+	margin-left: 100px;
+	margin-right: 30px;
+	text-align: center;
+	font-family: 'Caveat Brush', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Nabla', cursive;
+font-family: 'Norican', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+
+}
+.about p{
+	color: black;
+	font-size: 30px;
+	align-text: left;
+	font-family: 'Caveat Brush', cursive;
+}
+.dimond{
+	float: left;
+	padding: 10px;
+	width: 30%;
+	margin-left:20px;
+	margin-top: 0%;
+}
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+.imgarea{
+	width: 400px;
+	height: 600px;
+	position: relative;
+	
+}
+.imgarea img{
+	width: 400px;
+	height: 600px;
+	margin-left: 20%;
+}
+.imgtxt button {
+	color: deeppink;
+	position: relative;
+	padding: 5px;
+	font-size: 10px;
+	top: 75%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	background: lightyellow;
+	color: black;
+	padding: 16px 30px;
+	border-radius: none;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 0%;
+	font-family: 'Caveat Brush', cursive;
+
+
+}
+.imgtxt button:hover{
+	color: deeppink;
+}
+.offer1 img{
+	align-items: left;
+	width: 800px;
+	height: 500px;
+	margin-top:5S% ;
+	margin-left: 2%;
+
+}
+.offer1 .offerhead{
+	position: absolute;
+	top: 210%;
+	left: 50%;
+	font-size: 50px;
+	color: #30244d;
+
+
+}
+
+.offer1 button{
+	position: absolute;
+	left: 57%;
+	top: 240%;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 10%;
+	cursor: pointer;
+	
+
+}
+.offer{
+	background: radial-gradient(#fff,#c9bfe0);
+}
+.offer1 .get{
+	position: absolute;
+	left: 45%;
+	top: 220%;
+	font-size: 40px;
+}
+.footer{
+	background: #333333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	padding: 70px 0;
+}
+
+.container1{
+	max-width: 1170px;
+	margin: auto;
+}
+.footer-col ul{
+	list-style: none;
+}
+.row1{
+	display: flex;
+	flex-wrap:wrap ;
+}
+.footer-col{
+	width: 21%;
+	padding: 0 15px;
+}
+.footer-col{
+	font-size: 20px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	height: 2px;
+	box-sizing: border-box;
+	background-color:#e91e63 ;
+	
+
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 15px;
+}
+.footer-col ul li a{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	color: #bbbbbb;	
+	font-weight: 300px;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 10px;
+}
+.footer-col .social-link a{
+	margin-left: 5px;
+	color: white;
+	
+
+
+} 
+.dp h1{
+	font-size: 80px;
+	text-align: center;
+	color:#B65FCF ;
+}
+.col-2 img{
+	width: 500px;
+	height: 500px;
+	align-items: left;
+	margin-left: 10%;
+}
+.bar1{
+	display: inline;
+	align-items: center;
+	background: pink;
+}
+.bar1 ul{
+	list-style: none;
+	align-items: center;
+	padding: 5px;
+	margin-left: 50%;
+	margin-top: 0%;
+	display: flex;
+
+}
+.bar1 li{
+	display: inline;
+	margin: 30px;
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+
+}
+
+.bar1 li a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	 font-family: 'Explora', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Josefin Sans', sans-serif
+	
+
+	
+	
+}
+.bar1 li a:hover{
+	color: deeppink;
+	text-decoration: none;
+}
+.kitbar {
+	background: radial-gradient(#fff,pink);
+}
+.kitlogo{
+	width: 200px;
+	height: 100px;
+	margin-left: 5%;
+	margin-top: 0%;
+
+}
+.col-2 h1{
+	margin-left: 50%;
+	top: 40%;
+	position: absolute;
+}
+.col-2 p{
+	top: 55%;
+	position: absolute;
+	margin-left: 50%;
+}
+.col-2 button{
+	position: absolute;
+	padding: 7px;
+	font-size: 15px;
+	border-radius: 20%;
+	top: 75%;
+	left: 55%;
+	background-color: pink;
+}
+.col-2 button:hover{
+	background-color:#BF94E4;
+	cursor: pointer;
+}
+.col-2 h2{
+	position: absolute;
+	top: 27%;
+	margin-left: 49%;
+	color: #734F96;
+	font-size: 40px;
+	font-family: bold;
+
+}
+.col-3 h1{
+	margin-left: 50%;
+	top: 120%;
+	position: absolute;
+}
+.col-3 p{
+	top: 135%;
+	position: absolute;
+	margin-left: 50%;
+}
+.col-3 button{
+	position: absolute;
+	padding: 7px;
+	font-size: 15px;
+	border-radius: 20%;
+	top: 155%;
+	left: 55%;
+	background-color: pink;
+}
+.col-3 button:hover{
+	background-color:#BF94E4;
+	cursor: pointer;
+}
+.col-3 h2{
+	position: absolute;
+	top: 108%;
+	margin-left: 49%;
+	color: #734F96;
+	font-size: 40px;
+	font-family: bold;
+
+}
+.col-3 img{
+	width: 500px;
+	height: 500px;
+	align-items: left;
+	margin-left: 10%;
+}
+.col-4 h1{
+	margin-left: 50%;
+	top: 200%;
+	position: absolute;
+}
+.col-4 p{
+	top: 215%;
+	position: absolute;
+	margin-left: 50%;
+}
+.col-4 button{
+	position: absolute;
+	padding: 7px;
+	font-size: 15px;
+	border-radius: 20%;
+	top: 237%;
+	left: 55%;
+	background-color: pink;
+}
+.col-4 button:hover{
+	background-color:#BF94E4;
+	cursor: pointer;
+}
+.col-4 h2{
+	position: absolute;
+	top: 188%;
+	margin-left: 49%;
+	color: #734F96;
+	font-size: 40px;
+	font-family: bold;
+
+}
+.col-4 img{
+	width: 500px;
+	height: 500px;
+	align-items: left;
+	margin-left: 10%;
+}
+
+
+.login img{
+	width: 550px;
+	height: 500px;
+	align-items: left;
+	margin-left: 5%;
+}
+.login .upskin{
+	font-size: 50px;
+	margin-left: 18%;
+	color: #734F96;
+	position: absolute;
+	top: 83%;
+	font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+}
+.login .login1{
+	margin-left: 50%;
+	top: 30%;
+	position: absolute;
+}
+.login .register{
+	margin-left: 73%;
+	top: 30%;
+	position: absolute;
+}
+.login .luser{
+	position: absolute;
+	left: 47%;
+	top: 45%;
+}
+.login .lpass{
+	position: absolute;
+	left: 47%;
+	top: 55%;
+}
+.login .logbut{
+	position: absolute;
+	left: 51%;
+	top: 65%;
+	background-color: pink;
+	font-size: 15px;
+	border-radius: 10%;
+}
+.login .remail{
+	position: absolute;
+	left: 70%;
+	top: 45%;
+
+}
+.login .ruser{
+	position: absolute;
+	left: 70%;
+	top: 55%;
+}
+.login .rpass{
+	position: absolute;
+	left: 70%;
+	top: 65%;
+
+}
+.login .signin{
+	left: 75%;
+	top: 75%;
+	position: absolute;
+	font-size: 15px;
+	background-color: pink;
+	border-radius: 10%;
+}
+.login #or{
+	left: 60%;
+	top: 80%;
+	position: absolute;
+	font-size: 200%;
+}
+ .login .icon1{
+     display: flex;
+     margin-right: 100px;
+     position: absolute;
+     left: 55%;
+     top: 90%;
+     size: 20%;
+
+}
+.login .icon1 a{
+	width: 70px;
+	height: 50px;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-left:10px;
+	color: black;
+
+	size: 20%;	
+}
+.login .icon1 a:hover{
+	color: deeppink;
+}
+.cards{
+	display: inline-block;
+	left: 10%;
+	margin: 30px;
+	width: 20%;
+
+}
+
+.cards img{
+	width: 170px;
+	height: 150px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.heading{
+	font-size: 25px;
+	margin-left: 2%;
+}
+.rs{
+	margin-top:-1%;
+	margin-left: 2%;
+}
+.lipbut{
+	margin-top: 5px;
+	margin-left: 3%;
+}
+.select{
+	padding: 5px;
+	margin-right: 0px;
+	margin-top: 5px;
+	
+}
+.lable{
+	margin-left: %;
+	margin-top: 10px;
+
+}
